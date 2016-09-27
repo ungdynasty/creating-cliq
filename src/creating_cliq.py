@@ -1,5 +1,11 @@
 import simplegui
 
+class Cliq:
+    def __init__(self):
+        pass
+
+cliq = Cliq()
+
 def draw(canvas):
     pass
 
