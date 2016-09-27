@@ -1,8 +1,15 @@
 import simplegui
 
+class Circle:
+    pass
+
+class ShapeAttribute:
+    pass
+
 class Cliq:
     def __init__(self):
-        pass
+        self.circle_shape = Circle()
+        self.shape_attributes = ShapeAttribute()
 
 cliq = Cliq()
 
