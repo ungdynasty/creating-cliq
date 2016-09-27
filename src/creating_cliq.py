@@ -1,7 +1,9 @@
 import simplegui
 
 class Circle:
-    pass
+    def __init__(self):
+        self.center_point = (100,100)
+        self.radius = 10
 
 class ShapeAttribute:
     pass
