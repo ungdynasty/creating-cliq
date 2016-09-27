@@ -4,9 +4,12 @@ class Circle:
     def __init__(self):
         self.center_point = (100,100)
         self.radius = 10
-
+        
 class ShapeAttribute:
-    pass
+    def __init__(self):
+        self.line_width = 5
+        self.line_color = "Blue"
+		self.fill_color = "Green"
 
 class Cliq:
     def __init__(self):
